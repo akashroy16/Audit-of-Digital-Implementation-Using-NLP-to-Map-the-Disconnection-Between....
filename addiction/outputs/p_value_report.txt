@@ -1,0 +1,12 @@
+STATISTICAL SIGNIFICANCE REPORT
+==============================
+1. AUDIENCE REACH (VIEWS):
+   - T-Statistic: -13.6962
+   - P-Value: 0.0000000000
+
+2. USER ENGAGEMENT SCORE:
+   - T-Statistic: 2205.7819
+   - P-Value: 0.0000000000
+==============================
+INTERPRETATION:
+If P-Value < 0.05, the difference is STATISTICALLY SIGNIFICANT.

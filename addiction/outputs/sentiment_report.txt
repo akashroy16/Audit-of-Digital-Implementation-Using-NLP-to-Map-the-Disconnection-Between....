@@ -1,0 +1,6 @@
+SENTIMENT ANALYSIS SUMMARY
+==============================
+Avg Polarity (Int): 0.01
+Avg Polarity (Loc): 0.03
+Avg Subjectivity (Int): 0.12
+Avg Subjectivity (Loc): 0.08

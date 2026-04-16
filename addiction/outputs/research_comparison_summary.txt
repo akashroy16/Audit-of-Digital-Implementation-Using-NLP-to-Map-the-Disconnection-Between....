@@ -1,0 +1,6 @@
+EXECUTIVE RESEARCH SUMMARY TABLE
+========================================
+                Category  Sample Size (N)  Avg Views  Max Views  Avg Engagement (%)  Avg Polarity (Tone)  Avg Subjectivity (Fact/Opinion)
+International (Clinical)               58   28180.17      49856                2.88                0.013                            0.119
+           Local (Viral)               58  538752.26     993847                1.29                0.035                            0.076
+========================================

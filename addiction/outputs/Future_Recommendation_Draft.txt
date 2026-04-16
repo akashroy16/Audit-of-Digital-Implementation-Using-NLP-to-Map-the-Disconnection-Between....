@@ -1,0 +1,29 @@
+
+    FUTURE RECOMMENDATIONS & POLICY IMPLICATIONS
+    ============================================
+    Based on the analysis of 116 video titles.
+
+    1. BRIDGING THE SUBJECTIVITY GAP:
+       - Analysis shows local viral content is -36.5% more subjective 
+         than international clinical data.
+       - Future Work: Develop AI-driven tools for local health creators to align 
+         emotional storytelling with clinical accuracy.
+
+    2. COUNTERING VIRAL MISINFORMATION:
+       - Recommendation: YouTube's algorithm should prioritize local content that 
+         mimics the high engagement of viral videos but maintains a 'Subjectivity Score' 
+         closer to clinical standards (target: < 0.12).
+
+    3. PROMOTING 'ONE HEALTH' DIGITAL SOLUTIONS:
+       - Recommendation: Integrate public health experts with software engineers to 
+         create verified 'Addiction Recovery' dashboards in local languages.
+
+    4. FUTURE RESEARCH DIRECTIONS:
+       - Expand dataset beyond titles to include video transcript analysis for 
+         deeper sentiment detection.
+       - Conduct user surveys to understand why high-subjectivity titles 
+         trigger more clicks in the Bangladeshi context.
+    
+    ============================================
+    Drafted by: Akash Roy (DIU Undergraduate Research)
+    

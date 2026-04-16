@@ -1,0 +1,12 @@
+SOURCE CATEGORIZATION SUMMARY
+==============================
+International:
+Source_Type
+Individual/Viral    29
+Institutional       29
+
+Local:
+Source_Type
+Individual/Viral    56
+Commercial/Rehab     1
+Institutional        1

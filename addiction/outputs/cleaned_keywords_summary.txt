@@ -1,0 +1,5 @@
+CLEANED TOP 10 KEYWORDS COMPARISON
+===================================
+INT: [('addiction', 20), ('opioid', 15), ('mayo', 13), ('clinic', 13), ('treatment', 12), ('alcohol', 12), ('stanford', 8), ('niaaa', 7), ('epidemic', 6), ('science', 5)]
+
+LOC: [('addiction', 23), ('intoxicating', 11), ('drugs', 11), ('shiny', 10), ('recovery', 10), ('alcohol', 9), ('addicted', 8), ('maktar', 7), ('impersonator', 7), ('treatment', 4)]

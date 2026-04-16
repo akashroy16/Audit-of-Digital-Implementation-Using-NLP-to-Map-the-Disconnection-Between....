@@ -1,0 +1,39 @@
+digraph Research_Methodology_Flowchart {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label=Research_Methodology_Flowchart nodesep=0.60 pad=2.0 rankdir=TB ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	subgraph "cluster_Data Acquisition (N=116)" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="Data Acquisition (N=116)" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		de07b677d96e4809b888af8f008595c6 [label="International Clinical Data" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/onprem/network\internet.png" shape=none]
+		bf69d8666e5d454ab5c610b6275c403b [label="Local Viral Data (Bangladesh)" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/onprem/network\internet.png" shape=none]
+	}
+	subgraph "cluster_Processing & Statistical Analysis (Python)" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="Processing & Statistical Analysis (Python)" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		"88da199010574ced9d0a7bc4623362ca" [label="Data Cleaning & Processing" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/programming/language\python.png" shape=none]
+		subgraph "cluster_Analytical Pipelines" {
+			graph [bgcolor="#EBF3E7" fontname="Sans-Serif" fontsize=12 label="Analytical Pipelines" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+			"5f32b97cac6c47d1a5f77cfc817de409" [label="Reach & Engagement Analysis" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/generic/blank\blank.png" shape=none]
+			"479853996d674c96a491fc9e0112dedd" [label="Keyword Translation & WordCloud" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/generic/blank\blank.png" shape=none]
+			b8645525ff224b34abea7ed78f1bc4ab [label="Sentiment & Subjectivity Analysis" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/generic/blank\blank.png" shape=none]
+			"85e10a21495e4426966ebbb5e58ffbb5" [label="Source Categorization" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/generic/blank\blank.png" shape=none]
+		}
+	}
+	subgraph "cluster_Research Outputs & Synthesis" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="Research Outputs & Synthesis" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		f2807195582c41bdb7d83f2a83d8054e [label="Executive Summary Table" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/generic/blank\blank.png" shape=none]
+		c432f4b1d7924735b4827c5c4d6769eb [label="Final Visualizations (Plots)" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/generic/blank\blank.png" shape=none]
+		"55440df6ab934884b8b64471613b5003" [label="Actionable Policy Insights" height=1.9 image="C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\site-packages\resources/onprem/client\client.png" shape=none]
+	}
+	de07b677d96e4809b888af8f008595c6 -> "88da199010574ced9d0a7bc4623362ca" [color=blue dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 style=dashed]
+	bf69d8666e5d454ab5c610b6275c403b -> "88da199010574ced9d0a7bc4623362ca" [color=red dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 style=dashed]
+	"88da199010574ced9d0a7bc4623362ca" -> "5f32b97cac6c47d1a5f77cfc817de409" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"88da199010574ced9d0a7bc4623362ca" -> "479853996d674c96a491fc9e0112dedd" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"88da199010574ced9d0a7bc4623362ca" -> b8645525ff224b34abea7ed78f1bc4ab [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"88da199010574ced9d0a7bc4623362ca" -> "85e10a21495e4426966ebbb5e58ffbb5" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"5f32b97cac6c47d1a5f77cfc817de409" -> c432f4b1d7924735b4827c5c4d6769eb [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"479853996d674c96a491fc9e0112dedd" -> c432f4b1d7924735b4827c5c4d6769eb [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	b8645525ff224b34abea7ed78f1bc4ab -> c432f4b1d7924735b4827c5c4d6769eb [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"85e10a21495e4426966ebbb5e58ffbb5" -> c432f4b1d7924735b4827c5c4d6769eb [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	c432f4b1d7924735b4827c5c4d6769eb -> f2807195582c41bdb7d83f2a83d8054e [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	f2807195582c41bdb7d83f2a83d8054e -> "55440df6ab934884b8b64471613b5003" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}

@@ -1,0 +1,30 @@
+
+    ==========================================================
+    RESEARCH EXECUTIVE SUMMARY: ADDICTION CONTENT ANALYSIS
+    ==========================================================
+    
+    1. COMPARATIVE METRICS (AVERAGES)
+    ----------------------------------------------------------
+    Metric                | International | Local Viral
+    ----------------------------------------------------------
+    Avg Views             | 28180.17     | 538752.26
+    Avg Engagement (%)    | 2.88%     | 1.29%
+    Avg Subjectivity      | 0.119      | 0.076
+    Avg Polarity (Tone)   | 0.013      | 0.035
+    
+    2. STATISTICAL SIGNIFICANCE (P-VALUES)
+    ----------------------------------------------------------
+    - Reach (Views) P-Value: 0.0000000000
+    - Engagement P-Value: 0.0000000000
+    * Note: P < 0.05 indicates the findings are scientifically significant.
+
+    3. KEY RESEARCH INSIGHTS
+    ----------------------------------------------------------
+    - Subjectivity Gap: Local content shows higher subjectivity (0.076) 
+      compared to international clinical data (0.119).
+    - Viral Nature: The disparity in reach suggests local audiences are more 
+      susceptible to emotional/viral health narratives.
+    
+    ==========================================================
+    Generated for: Akash Roy (DIU Research Project)
+    
